@@ -1,6 +1,6 @@
 <?php
 
-namespace ElCarraco\MakerExtraBundle\Commands;
+namespace ElCarraco\MakerExtraBundle\Command;
 
 use Symfony\Bundle\MakerBundle\ConsoleStyle;
 use Symfony\Bundle\MakerBundle\DependencyBuilder;
