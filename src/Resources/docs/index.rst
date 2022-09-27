@@ -9,7 +9,7 @@ Installation
 Run this command to install and enable this bundle in your application :
 .. code-block:: terminal
 
-    $ composer require --dev elcarraco/maker-extra-bundle
+$ composer require --dev elcarraco/maker-extra-bundle
 
 Usage
 -----
@@ -17,15 +17,15 @@ Usage
 This bundle provides several commands under the ``make:`` namespace. List them all executing this command:
 .. code-block:: terminal
 
-    $ php bin/console list make
+$ php bin/console list make
 
-     make:command            Creates a new console command class
-     make:controller         Creates a new controller class
-     make:entity             Creates a new Doctrine entity class
+ make:command            Creates a new console command class
+ make:controller         Creates a new controller class
+ make:entity             Creates a new Doctrine entity class
 
-     [...]
+ [...]
 
-     make:trait              Creates a new trait
+ make:trait              Creates a new trait
 
 The names of the commands are self-explanatory, but some of them include optional arguments and options.
 Check them out with the ``--help`` option:
