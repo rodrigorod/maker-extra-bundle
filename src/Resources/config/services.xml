@@ -5,8 +5,8 @@
            xsi:schemaLocation="http://symfony.com/schema/dic/services http://symfony.com/schema/dic/services/services-1.0.xsd">
     <services>
         <defaults public="false" />
-        <service id="maker-extra.make_trait" class="ElCarraco\MakerExtraBundle\Command\MakeTrait" abstract="false">
-            <argument /> <!-- maker-extra -->
+        <service id="maker.maker.make_trait" class="ElCarraco\MakerExtraBundle\Command\MakeTrait">
+            <tag name="maker.command" />
         </service>
     </services>
 </container>
